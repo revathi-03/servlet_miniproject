@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>user.crud.servlet</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Emp</display-name>
+    <servlet-name>Emp</servlet-name>
+    <servlet-class>Emp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Emp</servlet-name>
+    <url-pattern>/Emp</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>update</display-name>
+    <servlet-name>update</servlet-name>
+    <servlet-class>update</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>update</servlet-name>
+    <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>EmploysAllData</display-name>
+    <servlet-name>EmploysAllData</servlet-name>
+    <servlet-class>servlet.projects.EmploysAllData</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EmploysAllData</servlet-name>
+    <url-pattern>/EmploysAllData</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
